@@ -352,7 +352,7 @@ DEPENDENCIES
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.1)
   rubocop-rails
-  rubygems-update (>= 3.3.22)
+  rubygems-update
   sass-rails (>= 6)
   selenium-webdriver
   spring

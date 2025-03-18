@@ -27,7 +27,7 @@ gem 'faker'
 gem 'hamlit'
 gem 'devise'
 gem 'aws-sdk-s3', require: false
-gem "rubygems-update", ">= 3.3.22"
+gem "rubygems-update"
 gem "ffi", ">= 1.17.1"
 
 # Use Active Storage variant
