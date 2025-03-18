@@ -27,6 +27,8 @@ gem 'faker'
 gem 'hamlit'
 gem 'devise'
 gem 'aws-sdk-s3', require: false
+gem "rubygems-update"
+gem "ffi", ">= 1.17.1"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

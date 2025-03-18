@@ -263,6 +263,7 @@ GEM
     ruby_parser (3.21.1)
       racc (~> 1.5)
       sexp_processor (~> 4.16)
+    rubygems-update (3.4.22)
     rubyzip (2.4.1)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -342,6 +343,7 @@ DEPENDENCIES
   dotenv-rails
   erb2haml
   faker
+  ffi (>= 1.17.1)
   hamlit
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
@@ -350,6 +352,7 @@ DEPENDENCIES
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.1)
   rubocop-rails
+  rubygems-update
   sass-rails (>= 6)
   selenium-webdriver
   spring
