@@ -339,6 +339,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  concurrent-ruby (~> 1.2, >= 1.2.3)
   devise
   dotenv-rails
   erb2haml
@@ -347,6 +348,7 @@ DEPENDENCIES
   hamlit
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
+  net-protocol (~> 0.2.2)
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 4.1)
