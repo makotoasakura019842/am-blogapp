@@ -1,5 +1,11 @@
 require_relative 'boot'
 
+module ActiveSupport
+  class LoggerThreadSafeLevel
+    Logger = ::Logger
+  end
+end
+
 require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
