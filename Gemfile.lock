@@ -337,7 +337,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  activesupport (~> 6.0.6)
   annotate
   aws-sdk-s3
   better_errors

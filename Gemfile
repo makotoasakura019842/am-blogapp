@@ -31,7 +31,6 @@ gem "rubygems-update", ">= 3.3.22"
 gem 'ffi', '~> 1.15.0'
 gem 'concurrent-ruby', '~> 1.2', '>= 1.2.3'
 gem 'net-protocol', '~> 0.2.2'
-gem 'activesupport', '~> 6.0.6'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
