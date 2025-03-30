@@ -29,7 +29,7 @@ gem 'devise'
 gem 'aws-sdk-s3', require: false
 gem "rubygems-update", ">= 3.3.22"
 gem 'ffi', '~> 1.15.0'
-gem 'concurrent-ruby', '~> 1.2', '>= 1.2.3'
+gem 'concurrent-ruby', '1.3.4'
 gem 'net-protocol', '~> 0.2.2'
 
 # Use Active Storage variant
