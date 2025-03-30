@@ -21,10 +21,11 @@ class Article < ApplicationRecord
   validates :title, format: { with: /\A(?!\@)/ }
 
   validates :content, presence: true
-  validates :content, length: { minimum: 10 }
+  validates :content, length: { minimum: 2 }
   validates :content, uniqueness: true
 
-  validate :validate_title_and_content_length
+  # 学習用
+  # validate :validate_title_and_content_length
 
   has_many :comments, dependent: :destroy
   has_many :likes, dependent: :destroy
@@ -42,9 +43,10 @@ class Article < ApplicationRecord
     likes.count
   end
 
-  private
-  def validate_title_and_content_length
-    char_count = self.title.length + self.content.length
-    errors.add(:content, '100文字いじょうで！') unless char_count > 100
-  end
+  # 学習用
+  # private
+  # def validate_title_and_content_length
+  #   char_count = self.title.length + self.content.length
+  #   errors.add(:content, '2文字いじょうで！') unless char_count > 2
+  # end
 end
